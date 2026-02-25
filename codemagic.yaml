@@ -13,6 +13,7 @@ workflows:
                 - ~/.gradle/caches
 
         environment:
+            flutter: stable
             groups:
                 - google_credentials_f
             android_signing:
